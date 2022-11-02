@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 /* struttura nav_bar */
@@ -59,4 +60,59 @@
     width: 64%;
     height: 400px;
     background-color: blue;
+}
+
+/* struttura main */
+.main_container{
+    width: 80%;
+    margin: 0 auto;
+}
+.col_intro_tariffe{
+    background-color: orange;
+    border: 1px dashed black;
+    height: 200px;
+    width: 50%;
+}
+.col_tariffe{
+    width: 30%;
+    background-color: cyan;
+    height: 800px;
+    border: 1px dashed black;
+}
+.contatti_vendite{
+    background-color: cyan;
+    border: 1px dashed black;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 200px;  
+}
+.partner_dropbox_img{
+    width: 59%;
+    height: 400px;
+    background-color: blue;
+}
+.partner_dropbox_text{
+    width: 39%;
+    height: 400px;
+    background-color: pink;
+}
+.container_dropbox_business_title{
+    background-color: aquamarine;
+    height: 50px;
+    width: 100%;
+    margin: 100px 0 20px;
+}
+.col_30{
+    width: 30%;
+    height: 200px;
+    background-color: green;
+    border: 1px dashed black;
+    height: 500px;
+}
+.col_dropbox_client{
+    background-color: aquamarine;
+    height: 300px;
+    width: 100%;
+    margin: 100px 0 20px;
+
 }
