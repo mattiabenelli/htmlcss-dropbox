@@ -1,6 +1,35 @@
+/* utilities */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aqua;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* struttura nav_bar */
+.container_nav{
+    background-color: beige;
+    border: 1px dashed black;
+    height: 50px;
+}
+.col_nav{
+    background-color: green;
+    border: 1px dashed black;
+    height: 30px;
+    width: calc(100% / 2);
+    margin-top: 10px;
+}
+.nav_sx, .nav_dx{
+    display: flex;
+    align-items: center;
+}
+.nav_sx{
+    justify-content: flex-start;
+}
+.nav_dx{
+    justify-content: flex-end;
 }
