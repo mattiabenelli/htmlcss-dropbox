@@ -100,6 +100,28 @@ i{
     width: 30%;
     height: 100%;
 }
+.container_interno_tabella{
+    width: 80%;
+    margin: 0 auto;
+}
+.container_esterno_tabella{
+    border: 1px solid gray;
+    border-top: 0px;
+    min-height: 900px;
+    margin-bottom: 50px;
+}
+.container_interno_tabella li{
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+    margin: 10px 0;
+}
+.container_text{
+    min-height: 400px;    
+}
+.container_interno_tabella ul{
+    margin-bottom: 50px;
+}
 .col_team{
     width: 100%;
     margin: 0 auto;
@@ -136,21 +158,16 @@ i{
 }
 .col_30{
     width: 30%;
-    height: 200px;
-    background-color: green;
-    border: 1px dashed black;
-    height: 500px;
 }
 .col_dropbox_client{
-    background-color: aquamarine;
-    height: 300px;
+    border: 1px solid black;
     width: 100%;
     margin: 100px 0 20px;
 }
 .col_grid{
     width: calc(100% / 3);
     background-color: gray;
-    height: 500px;
+    /* height: 500px; */
     border: 1px dashed black;
 }
 .logo_grid{
@@ -159,7 +176,7 @@ i{
 }
 .single_logo{
     width: 50%;
-    height: 250px;
+    max-height: 50%;
     background-color: purple;
     border: 1px dashed black;    
 }
@@ -256,25 +273,6 @@ footer{
     padding: 10px 0;
     border: 1px solid gray;
 }
-.container_interno_tabella{
-    width: 80%;
-    margin: 0 auto;
-}
-.container_esterno_tabella{
-    border: 1px solid gray;
-    border-top: 0px;
-    min-height: 800px;
-    margin-bottom: 50px;
-}
-.container_interno_tabella li{
-    list-style-type: none;
-    display: flex;
-    align-items: baseline;
-    margin: 10px 0;
-}
-.container_interno_tabella ul{
-    margin-bottom: 50px;
-}
 .option{
     font-weight: bold;
     font-size: 30px;
@@ -312,4 +310,40 @@ footer{
 .partner_dropbox_text_button{
     margin-top: 20px;
     font-size: 20px;
+}
+.dropbox_business_title{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 120px 0 60px;
+}
+.content_business_img img{
+    width: 100%;
+}
+.content_business_title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;  
+}
+.content_business_paragraph{
+    font-size: 15px;
+}
+.card{
+    margin-bottom: 40px;
+}
+.dropbox_client_title{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 150px 0 40px;
+}
+.dropbox_client_link{
+    margin-bottom: 200px;
+}
+.single_logo img{
+    width: 200px;
+}
+.single_logo{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
