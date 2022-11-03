@@ -8,7 +8,6 @@
 .row{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
 }
 .btn_blue{
@@ -22,6 +21,9 @@
 }
 .btn_medium{
     padding: 10px 30px;
+}
+.align_center{
+    align-items: center;
 }
 
 /* struttura nav_bar */
@@ -46,16 +48,16 @@
 }
 .container_jumbotron{
     width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto 200px; 
 }
 .col_jumbotron_title{
-    margin-top: 60px;
+    margin: 40px 0 60px;
 }
 .col_jumbotron_text{
-    width: 29%;
+    width: 34%;
 }
 .col_jumbotron_img{
-    width: 69%;
+    width: 65%;
 }
 
 /* struttura main */
@@ -171,7 +173,7 @@ footer{
 .col_nav li{
     list-style-type: none;
     color: gray;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 30px;
 }
 .col_nav ul{
@@ -181,12 +183,11 @@ footer{
 
 /* stile jumbotron */
 .title_jumbotron {
-    font-size: 100px;
+    font-size: 80px;
     font-weight: bolder;
-    margin-bottom: 0px;
 }
 .jumbotron_text_paragraph{
-    font-size: 25px;
+    font-size: 20px;
 }
 .jumbotron_text_button{
     margin: 30px 0;
@@ -198,8 +199,14 @@ footer{
 }
 .jumbotron_img{
     position: relative;
-    top: 100px;
 }
 .jumbotron_img img{
     width: 100%;
+    position: absolute;
+}
+
+/* stile main */
+.col_intro_tariffe_title{
+    font-weight: bold;
+    font-size: 50px;
 }
