@@ -207,14 +207,12 @@ footer{
     color: white;
 }
 .footer_container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 .col_20{
     width: calc(100% / 5);
-    height: 200px;
     margin: 20px;
-    border: 1px dashed white;
 }
 
 /* stile nav bar */
@@ -394,9 +392,17 @@ main{
 .top_border{
     border-top: 1px solid black;
 }
-col_20_title
+.col_20_title{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
 .col_20_list ul{
     list-style-type: none;
 }
+.col_20_list li{
+    margin-bottom: 10px;
+}
+
 
 /* Rimpiazzare tutti i bold con font più pesante da google font */
