@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 .row{
     display: flex;
     justify-content: space-between;
@@ -404,5 +407,10 @@ main{
     margin-bottom: 10px;
 }
 
+/* stili animati */
+.jumbotron_text_backdrop a{
+    text-decoration: none;
+    color: black;
+}
 
 /* Rimpiazzare tutti i bold con font più pesante da google font */
