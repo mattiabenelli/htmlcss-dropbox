@@ -214,7 +214,7 @@ footer{
     width: calc(100% / 5);
     height: 200px;
     margin: 20px;
-    background-color: orange;
+    border: 1px dashed white;
 }
 
 /* stile nav bar */
@@ -392,7 +392,11 @@ main{
     margin-right: 50px;
 }
 .top_border{
-    border-top: 1px black;
+    border-top: 1px solid black;
+}
+col_20_title
+.col_20_list ul{
+    list-style-type: none;
 }
 
 /* Rimpiazzare tutti i bold con font più pesante da google font */
