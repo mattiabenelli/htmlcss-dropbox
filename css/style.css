@@ -18,10 +18,12 @@ html{
     border: 1px solid #0061ff;
     color: white;
     font-size: 20px;
+    transition: 0.5s;
 }.btn_white{
     background-color: white;
     border: 1px solid gray;
     color: gray;
+    transition: 0.5s;
 }
 .btn_small{
     padding:  5px 20px;
@@ -197,11 +199,9 @@ i{
 }
 .faq_object{
     border-bottom: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
     padding: 40px 0;
     width: 100%;
+    display: block;
 }
 
 /* struttura footer*/
@@ -387,9 +387,7 @@ main{
     width: 50%;
 }
 .faq_object_tick{
-    font-size: 30px;
-    position: relative;
-    bottom: 5px;
+    font-size: 20px;
     margin-right: 50px;
 }
 .top_border{
@@ -407,11 +405,13 @@ main{
     margin-bottom: 10px;
 }
 
-/* stili animati */
+/* elementi bonus */
+/* freccia jumbo */
 .jumbotron_text_backdrop a{
     text-decoration: none;
     color: black;
 }
+/* pulsanti */
 .btn_white:hover{
     background-color: #0061ff;
     color: white;
@@ -422,4 +422,21 @@ main{
     color: black;
     border: 1px solid black ;
 }
+
+.label_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.content{  
+    display: none;
+    padding: 20px 0 0 40px;
+}
+.faq_object:hover .content{
+    display: block;
+}
+.faq_object:hover .faq_object_tick{
+    rotate: 180deg;
+}
+
 /* Rimpiazzare tutti i bold con font più pesante da google font */
