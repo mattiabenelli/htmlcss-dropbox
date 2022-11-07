@@ -412,5 +412,14 @@ main{
     text-decoration: none;
     color: black;
 }
-
+.btn_white:hover{
+    background-color: #0061ff;
+    color: white;
+    border: 1px solid white;
+}
+.btn_blue:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black ;
+}
 /* Rimpiazzare tutti i bold con font più pesante da google font */
